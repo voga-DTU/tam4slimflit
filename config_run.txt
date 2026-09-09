@@ -1,0 +1,14 @@
+# configuration parameters for running the timing analysis tool (ta4slimflit)
+#########################
+# Use-case for example in SlimFlit paper incl. second isolated flow
+#USE-CASE: UC2.1 
+# Use-case with topology from SlimFlit paper but traffic starts to be congested - early congestion on F1
+#USE-CASE: UC2.2
+# Use-case with topology from SlimFlit paper but traffic starts to be congested - late congestion on F1
+#USE-CASE: UC2.3
+# The real-life automotive example found in the literature
+USE-CASE: autoLit
+
+# router latency for SlimFlit was found to be 1;
+## it takes 1 cycle time to process a Flit
+ROUTER_LATENCY: 1.0
