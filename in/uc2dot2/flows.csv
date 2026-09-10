@@ -1,0 +1,11 @@
+﻿Flows,,,
+Id,Src,Tgt,Size (in Flits),Rate (in Flits/CT)
+F1,N0.0,N3.3,1,1/2
+F2,N0.3,N2.2,1,1
+F3,N0.0,N1.1,1,1/2
+,,,
+Arrival curves,,,
+Id,Burst (in Flits),Rate (in Flit/CTs),
+AC1,1,1,
+AC2,1,1/2,
+,,,

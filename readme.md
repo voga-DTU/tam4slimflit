@@ -1,4 +1,4 @@
-This is the java project for the timing analysis method (TAM) of a Network on Chip (NoC) based on SlimFlit. 
+This is the java project for the timing analysis method (TAM) of a Network on Chip (NoC) based on SlimFlit router architecture. 
 
 The folder of the project is generically referred as <HOME_TAM4SLIMFLIT>.
 
@@ -77,7 +77,7 @@ if the classes are already compiled or
 mvn clean compile package
 ```
 
-The resulting jar can be found in <HOME_TAM4SLIMFLIT>/target/tam4slimflit-<VERSIN_ID>.jar.
+The resulting jar can be found in <HOME_TAM4SLIMFLIT>/target/tam4slimflit-<VERSION_ID>.jar.
 For executing this jar, please move it a level up in <HOME_TAM4SLIMFLIT>.
 
 Running the above commands with the provided pom.xml, 
